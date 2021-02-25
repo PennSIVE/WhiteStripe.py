@@ -7,5 +7,5 @@ ind = ws.whitestripe(t1, "T1")
 ind = ind[ind.names.index('whitestripe.ind')]
 
 res = ws.whitestripe_norm(t1, ind)
-ws.readnii(res, "T1w_ws.nii.gz")
+ws.writenii(res, "T1w_ws.nii.gz")
 ```
