@@ -13,8 +13,8 @@ def writenii(data, file):
 
 
 def whitestripe(image, ws_type):
-    return Whitestripe.whitestripe(image, ws_type); 
+    return WhiteStripe.whitestripe(image, ws_type); 
 
 
 def whitestripe_norm(image, ind):
-    return Whitestripe.whitestripe_norm(image, ind); 
+    return WhiteStripe.whitestripe_norm(image, ind); 
